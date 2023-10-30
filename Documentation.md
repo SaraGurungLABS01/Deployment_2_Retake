@@ -83,7 +83,40 @@ The scp command executed successfully, and the file was transferred from the rem
 
 <img width="970" alt="Screen Shot 2023-10-30 at 2 22 54 PM" src="https://github.com/SaraGurungLABS01/Deployment_2_Retake/assets/140760966/7975d421-87ba-4433-8758-8ef437fcf326">
 
+## Proceeding to Next steps
 
+1. Accessing AWS Console and Elastic Beanstalk:
+   - Opened the AWS Management Console.
+   - Navigated to the Elastic Beanstalk service.
+     
+2. Creating an Application:
+   - Selected the option to create a new application.
+     
+3. Configuring Application Details:
+   -Chose the desired platform for the application: Python 3.9 running on 64bit Amazon Linux 2023.
+
+4. Uploading Application Code:
+  - Under the "Application code" section, selected the "Upload" option.
+  - Specified the local file for deployment, denoting it as "Version: v1".
+  -    Uploaded the previously generated zip file artifact containing the application files.
+    
+5. Setting EC2 Instance Profile:
+   -Set the EC2 instance profile to "Elastic-EC2". This profile configuration ensures appropriate permissions for the instances in the Elastic Beanstalk environment.
+
+6. Defining VPC and Availability Zone:
+   - Utilized the default Virtual Private Cloud (VPC) for deployment.
+   - Chose the availability zone: us-east-1a.
+  
+7.Configuring Root Volume: 
+   - Selected "General Purpose (SSD)" as the root volume type.
+   - Specified a size of 10GB for the root volume.
+
+By meticulously following these steps, I successfully deployed the application to AWS Elastic Beanstalk. This deployment not only ensured the smooth execution of the application but also benefited from the flexible and managed environment provided by Elastic Beanstalk, allowing for efficient scaling and easy management.
+
+
+## System Diagram 
+
+![Untitled](https://github.com/SaraGurungLABS01/Deployment_2_Retake/assets/140760966/cb9e540b-6c3d-4b06-aab7-712a6eec124c)
 
       
 
