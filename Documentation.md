@@ -65,3 +65,8 @@
    -Jenkins will automatically detect changes and run the pipeline.
  #  Monitor Pipeline:
    -An output zip file is being packaged
+   <img width="858" alt="Screen Shot 2023-10-30 at 10 37 32 AM" 
+      src="https://github.com/SaraGurungLABS01/Deployment_2_Retake/assets/140760966/23d9bdb8-a355-471b-a6fa-961d7b401268">
+
+      
+
