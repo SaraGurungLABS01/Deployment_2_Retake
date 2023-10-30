@@ -114,9 +114,21 @@ The scp command executed successfully, and the file was transferred from the rem
 By meticulously following these steps, I successfully deployed the application to AWS Elastic Beanstalk. This deployment not only ensured the smooth execution of the application but also benefited from the flexible and managed environment provided by Elastic Beanstalk, allowing for efficient scaling and easy management.
 
 
+![86C96B3A-D374-4601-851E-DF5EAF66504D_1_201_a](https://github.com/SaraGurungLABS01/Deployment_2/assets/140760966/906490c5-944c-48a1-baca-83f13938aa84)
+
+
+
+
+![431C58EC-DF5F-4B36-B3ED-D786DB15C74D_1_201_a](https://github.com/SaraGurungLABS01/Deployment_2/assets/140760966/f028250d-a5ed-4d0a-a233-2fa60a4c04fb)
+
+
+
 ## System Diagram 
 
-![Untitled](https://github.com/SaraGurungLABS01/Deployment_2_Retake/assets/140760966/cb9e540b-6c3d-4b06-aab7-712a6eec124c)
+<img width="1142" alt="Screen Shot 2023-10-30 at 2 53 46 PM" src="https://github.com/SaraGurungLABS01/Deployment_2_Retake/assets/140760966/2fe493d1-cc7f-497e-b7ca-36384c3a604c">
+
+
+## Optimization
 
       
 
