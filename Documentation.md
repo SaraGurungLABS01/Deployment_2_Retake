@@ -68,5 +68,22 @@
    <img width="858" alt="Screen Shot 2023-10-30 at 10 37 32 AM" 
       src="https://github.com/SaraGurungLABS01/Deployment_2_Retake/assets/140760966/23d9bdb8-a355-471b-a6fa-961d7b401268">
 
+## Extracting the Zip file from Jenkins
+#### Creating an SSH Tunnel for File Transfer
+To securely transfer files from a remote server to a local machine, I utilized the scp command while establishing an SSH tunnel. Here's a brief overview of the process
+
+1. Secure Copy (scp) Command:
+Using the scp command in the terminal, I initiated the file transfer. By providing the necessary remote server details and file paths, I seamlessly copied the designated file to my local machine.
+
+2. SSH Tunnel Establishment:
+Prior to the file transfer, I established an SSH tunnel between my local machine and the remote server. This ensured the security of the data in transit and enabled a protected channel for the file transfer.
+
+3. Successful Transfer:
+The scp command executed successfully, and the file was transferred from the remote server to my local machine through the established SSH tunnel. The transferred file was saved to the designated local Download folder.
+
+<img width="970" alt="Screen Shot 2023-10-30 at 2 22 54 PM" src="https://github.com/SaraGurungLABS01/Deployment_2_Retake/assets/140760966/7975d421-87ba-4433-8758-8ef437fcf326">
+
+
+
       
 
