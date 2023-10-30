@@ -30,3 +30,38 @@
 - **Automated Jenkins Installation:**
   - Jenkins was launched and installed using an automated script for streamlined installation.
   - The installation script can be found in the [Installations repository](https://github.com/SaraGurungLABS01/Installations) under the filename `deploy_jenkins.sh`.
+ 
+
+### Install "python3.10-venv"
+
+1. **Update the package lists:**
+
+   ```bash
+   sudo apt update
+2. **Install "python3.10-venv" using the package manager:**
+   ```bash
+   sudo apt install python3.10-venv
+
+### Download and Install Jenkins Plugin "Pipeline Utility Steps"
+
+1. **Log in to Jenkins:**
+   - Open your Jenkins instance in a web browser and log in with appropriate credentials.
+
+2. **Access Jenkins Plugin Manager:**
+   - Click on "Manage Jenkins" in the Jenkins dashboard.
+   - Select "Manage Plugins" from the dropdown.
+
+3. **Install Plugin:**
+   - In the "Available" tab, search for "Pipeline Utility Steps."
+   - Check the box next to "Pipeline Utility Steps."
+   - Click the "Install without restart" button.
+
+4. **Verify Installation:**
+   - Once the installation is complete, you can verify that the plugin is installed by going to your Jenkins pipeline configurations.
+   - Confirm that the "Pipeline Utility Steps" are available for use.
+
+## Run Pipeline:
+   -Create a new Jenkins job of type "Pipeline" and linked it to my repository.
+   -Jenkins will automatically detect changes and run the pipeline.
+ #  Monitor Pipeline:
+   -An output zip file is being packaged
